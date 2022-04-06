@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+  background: url("./assets/images/HD/black_area.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.inner-wrapper {
+  width: 70%;
+  flex: 8;
+}
+
+.mint-container {
+  /* margin-top: 200px; */
+  flex: 5;
+}
+
+.mint-box {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 6px;
+  border: 1px solid #ffffff;
+  z-index: 2;
+}
+
+.mint-title {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.mint-price {
+  width: 100%;
+  margin-top: 10px;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.mint-price div {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+/* .mint-confirm .aws-btn {
+  width: 100% !important;
+} */
+.mint-confirm {
+  margin-top: 10px;
+  width: 100%;
+  font-size: 20px;
+}
+
+.mint-box-header {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.mint-box-logo {
+  height: 70px;
+}
+
+.background-robot-video {
+  object-fit: cover;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 1;
+}
+
+.camera-slide {
+  flex: 3;
+  width: 90%;
+}
+
+.account-tag {
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.token-icon {
+  width: 25px;
+  margin-right: 5px;
+}
